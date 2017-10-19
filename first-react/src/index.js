@@ -6,5 +6,5 @@ import Helloworld from './helloworld'
 
 const root = document.querySelector('#root')
 
-render(<Helloworld/>,root)
+render(<Helloworld name1="Tom" name2="Jack" city="beijing"/>,root)
 
